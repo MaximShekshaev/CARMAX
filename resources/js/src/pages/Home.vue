@@ -40,4 +40,6 @@ const reviews = ref([
   { id: 2, name: 'Мария С.', avatar: 'https://via.placeholder.com/50', rating: 4, text: 'Быстро оформили аренду, персонал вежливый. Советую для поездок по городу.' },
   { id: 3, name: 'Игорь К.', avatar: 'https://via.placeholder.com/50', rating: 5, text: 'Очень удобный сервис. Машину доставили прямо к дому, всё прошло без проблем.' },
 ]);
+
+
 </script>

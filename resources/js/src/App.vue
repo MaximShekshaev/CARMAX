@@ -1,25 +1,16 @@
 <template>
   <div class="d-flex flex-column min-vh-100">
-
     <Header />
 
     <main class="flex-fill">
-      <!-- Страницы / контент -->
-      <Home></Home>
+      <router-view /> <!-- сюда рендерятся все страницы -->
     </main>
 
-    <footer class="bg-dark text-light py-3 mt-auto">
-      <Footer />
-    </footer>
-
+    <Footer />
   </div>
-     
-
 </template>
 
 <script setup>
-import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
-
-import Home from './pages/Home.vue';
+import Footer from './components/Footer.vue'
 </script>

@@ -5,7 +5,7 @@
       <div class="col-md-4" v-for="review in reviews" :key="review.id">
         <div class="review-card p-4 h-100 shadow-sm">
           <div class="d-flex align-items-center mb-3">
-            <img :src="review.avatar" alt="Avatar" class="rounded-circle me-3" style="width:50px; height:50px;">
+
             <div>
               <h5 class="mb-0">{{ review.name }}</h5>
               <div class="text-warning">

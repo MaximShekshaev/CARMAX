@@ -17,7 +17,6 @@
         <h6 class="fw-bold mb-3">Навигация</h6>
         <ul class="list-unstyled">
           <li><a href="#" class="text-secondary text-decoration-none">Главная</a></li>
-          <li><a href="#" class="text-secondary text-decoration-none">Автомобили</a></li>
           <li><a href="#" class="text-secondary text-decoration-none">Моя аренда</a></li>
           <li><a href="#" class="text-secondary text-decoration-none">Контакты</a></li>
         </ul>
